@@ -1,43 +1,33 @@
-# 🚀 FinWise - Smart Credit & Finance Assistant
+# 💰 FinWise - Smart Expense Tracker
 
 ## 📌 Overview
-FinWise is a smart financial assistant that helps students and young adults:
-- Track transactions
-- Predict credit score trends
-- Get AI-powered financial advice
-- Build good habits with gamification
+FinWise is a **personal finance management app** built for the Buildathon.  
+It helps users **track expenses, visualize spending habits, and gain insights** to improve financial decisions.
 
-## 🛠 Tech Stack
-- Frontend: React (Dashboard + Chatbot)
-- Backend: Flask (APIs for transactions + advice)
-- Database: Mock JSON (for demo), Firebase/MongoDB (future)
-- AI: OpenAI API (future integration)
-
-## ▶️ How to Run (Demo)
-### Frontend
-```bash
-cd frontend
-npm install
-npm start
-```
-Open [http://localhost:3000](http://localhost:3000)
-
-### Backend
-```bash
-cd backend
-pip install -r requirements.txt
-python app.py
-```
-API runs on [http://localhost:5000](http://localhost:5000)
-
-## 📂 Folder Structure
-```
-FinWise-Buildathon/
-│── frontend/   # React UI (Dashboard + Chatbot)
-│── backend/    # Flask API
-│── sample_data # Mock transactions.json
-│── README.md
-```
+The project is a **working prototype** with a simple **backend (Node.js + Express)** and a **frontend (React)** showing expense tracking and charts.
 
 ---
-⚡ Created for OpenAI x NxtWave Buildathon (2025)
+
+## ✨ Features
+- 📊 Add and view expenses (date, category, amount)
+- 📂 Data stored in a JSON file (acts as database)
+- 📉 Simple charts to visualize spending trends
+- ⚡ Fast and lightweight backend server
+- 🎨 Minimal UI to demonstrate concept
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend**: React + Recharts (for graphs)
+- **Backend**: Node.js + Express
+- **Database**: JSON file (sample data)
+- **Version Control**: Git + GitHub
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/your-username/FinWise-Buildathon.git
+cd FinWise-Buildathon

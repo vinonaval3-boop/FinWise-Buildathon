@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Form section */
+.expense-form {
+  max-width: 450px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.expense-form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.expense-form input,
+.expense-form select,
+.expense-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.expense-form button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.expense-form button:hover {
+  background: #45a049;
+}
+
+/* Summary section */
+.expense-summary {
+  max-width: 450px;
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+/* Filter & Sort section */
+.expense-filter {
+  max-width: 450px;
+  margin: 1rem auto 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.expense-filter label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.expense-filter select {
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Expense list */
+.expense-list {
+  max-width: 450px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.expense-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expense-list li {
+  padding: 0.6rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-list button {
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.expense-list button:first-of-type {
+  background: #2196F3;
+  color: white;
+}
+
+.expense-list button:first-of-type:hover {
+  background: #1976D2;
+}
+
+.expense-list button:last-of-type {
+  background: #f44336;
+  color: white;
+}
+
+.expense-list button:last-of-type:hover {
+  background: #d32f2f;
+}
+
+/* Chart section */
+.expense-chart {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .expense-form,
+  .expense-list,
+  .expense-summary,
+  .expense-chart,
+  .expense-filter {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .expense-filter label {
+    width: 100%;
+  }
+}
