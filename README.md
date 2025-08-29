@@ -29,5 +29,20 @@ The project is a **working prototype** with a simple **backend (Node.js + Expres
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/your-username/FinWise-Buildathon.git
-cd FinWise-Buildathon
+git clone https://github.com/Vinothini/FinWise-Buildathon.git
+cd FinWise-Buildathon 
+
+
+2️⃣ Setup Backend
+cd backend
+npm install
+node server.js
+
+Backend runs on http://localhost:5000 
+
+3️⃣ Setup Frontend
+cd frontend
+npm install
+npm start
+
+Frontend runs on http://localhost:3000
