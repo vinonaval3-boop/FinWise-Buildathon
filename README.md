@@ -37,35 +37,53 @@ The project is a **working prototype** with a simple **backend (Node.js + Expres
 
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/Vinothini/FinWise-Buildathon.git
+git clone "https://github.com/Vinothini/FinWise-Buildathon.git"
+
 cd FinWise-Buildathon
 
-2️⃣ Setup Backend
+### 2️⃣ Setup Backend
+
 bash
 
 cd backend
+
 npm install
+
 node server.js
+
 👉 Backend runs on http://localhost:5000
 
-3️⃣ Setup Frontend
+### 3️⃣ Setup Frontend
+
 bash
 
+
 cd frontend
+
 npm install
+
 npm start
+
 👉 Frontend runs on http://localhost:3000
 
 📂 Folder Structure
 bash
 
 FinWise-Buildathon/
-│── frontend/     # React UI (Dashboard + Charts)
-│── backend/      # Node.js + Express server
-│── data/         # Mock expenses.json
+
+│── frontend/   
+              # React UI (Dashboard + Charts)
+
+│── backend/     
+              # Node.js + Express server
+
+│── data/        
+              # Mock expenses.json
+
 │── README.md
 
 📌 Notes
+
 Make sure Node.js (>=14) is installed before running.
 
 Start the backend first, then the frontend.
