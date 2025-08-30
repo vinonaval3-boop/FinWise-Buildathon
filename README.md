@@ -36,12 +36,13 @@ The project is a **working prototype** with a simple **backend (Node.js + Expres
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone Repository
-```bash
+
 git clone https://github.com/Vinothini/FinWise-Buildathon.git
 cd FinWise-Buildathon
+
 2️⃣ Setup Backend
 bash
-Copy code
+
 cd backend
 npm install
 node server.js
@@ -49,7 +50,7 @@ node server.js
 
 3️⃣ Setup Frontend
 bash
-Copy code
+
 cd frontend
 npm install
 npm start
@@ -57,12 +58,13 @@ npm start
 
 📂 Folder Structure
 bash
-Copy code
+
 FinWise-Buildathon/
 │── frontend/     # React UI (Dashboard + Charts)
 │── backend/      # Node.js + Express server
 │── data/         # Mock expenses.json
 │── README.md
+
 📌 Notes
 Make sure Node.js (>=14) is installed before running.
 
@@ -70,7 +72,9 @@ Start the backend first, then the frontend.
 
 Modify data/expenses.json for custom transactions.
 
-🔮 Future Improvements
+
+🔮 Future Improvements:
+
 🔑 Add user authentication (login/signup)
 
 ☁️ Store expenses in a cloud database (MongoDB / Firebase)
@@ -79,5 +83,5 @@ Modify data/expenses.json for custom transactions.
 
 📊 Advanced analytics with AI-driven financial insights
 
-🔔 Add notifications & reminders for budget tracking
+🔔 Add notifications & reminders for budget tracking.
 
