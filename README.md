@@ -46,9 +46,7 @@ cd FinWise-Buildathon
 bash
 
 cd backend
-
 npm install
-
 node server.js
 
 👉 Backend runs on http://localhost:5000
@@ -59,30 +57,24 @@ bash
 
 
 cd frontend
-
 npm install
-
 npm start
 
 👉 Frontend runs on http://localhost:3000
 
-📂 Folder Structure
+### 📂 Folder Structure
 bash
 
 FinWise-Buildathon/
 
-│── frontend/   
-              # React UI (Dashboard + Charts)
+│── frontend/        # React UI (Dashboard + Charts)
 
-│── backend/     
-              # Node.js + Express server
+│── backend/         # Node.js + Express server
 
-│── data/        
-              # Mock expenses.json
-
+│── data/            # Mock expenses.json
 │── README.md
 
-📌 Notes
+### 📌 Notes
 
 Make sure Node.js (>=14) is installed before running.
 
@@ -91,7 +83,7 @@ Start the backend first, then the frontend.
 Modify data/expenses.json for custom transactions.
 
 
-🔮 Future Improvements:
+### 🔮 Future Improvements:
 
 🔑 Add user authentication (login/signup)
 
