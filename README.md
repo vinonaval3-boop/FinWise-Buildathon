@@ -52,7 +52,8 @@ npm install
 
 node server.js
 
-👉 Backend runs on http://localhost:5000
+  👉 [Backend - http://localhost:5000](http://localhost:5000)
+
 
 ### 3️⃣ Setup Frontend
 
@@ -65,20 +66,22 @@ npm install
 
 npm start
 
-👉 Frontend runs on http://localhost:3000
+  👉 [Frontend - http://localhost:3000](http://localhost:3000)
+
 
 ### 📂 Folder Structure
-bash
+
 
 FinWise-Buildathon/
-
-│── frontend/                  # React UI (Dashboard + Charts)
-
-│── backend/                   # Node.js + Express server
-
-│── data/                      # Mock expenses.json
-
-│── README.md
+├── backend/        # Node.js + Express server
+│   └── server.js
+│
+├── frontend/       # React app
+│   ├── public/     # index.html, favicon
+│   └── src/        # App.js, index.js, components/
+│
+├── README.md       # Project details
+└── .gitignore
 
 ### 📌 Notes
 
