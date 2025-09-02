@@ -73,18 +73,31 @@ npm start
 
 
 FinWise-Buildathon/
+
 - backend/
+
   - server.js
+
 - frontend/
+
   - public/
+
     - index.html
+
     - favicon.ico
+
   - src/
+
     - App.js
+
     - index.js
+
     - components/
+
 - README.md
+
 - .gitignore
+
 
 
 ### 📌 Notes
